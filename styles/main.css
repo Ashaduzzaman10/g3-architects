@@ -6,7 +6,12 @@ body {
   font-family: "Work Sans", sans-serif;
   margin: auto;
 }
-
+.container {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+}
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -33,10 +38,41 @@ body {
   background-color: #d11554;
   color: white;
 }
-
+/* top banner  */
+.top-banner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.top-banner-tittle {
+  font-size: 64px;
+  color: #131313;
+}
+.top-banner-description {
+  font-size: 15px;
+  color: #727272;
+}
+.button-primary {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+.btn {
+  height: 64px;
+  width: 180px;
+  margin: 50px;
+  font-size: 18;
+  color: white;
+  background: #ff900e;
+  border-radius: 8px;
+  border: none;
+}
 /* responsive menu  */
 @media screen and (max-width: 567px) {
-  .menu {
+  .menu,
+  .top-banner {
     flex-direction: column;
     padding: 12px;
   }
@@ -45,7 +81,8 @@ body {
     text-align: center;
     border-radius: 15px;
   }
-  .logo {
+  .logo,
+  .top-banner {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
