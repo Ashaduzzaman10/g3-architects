@@ -153,14 +153,13 @@ body {
   color: #727272;
 }
 /* fact section  */
-.fact {
-  margin-top: 30px;
+#some {
+  font-size: 34px;
+  text-align: start;
 }
-
-.fact-icon {
-  border: 10px solid #ff900e;
-  text-align: center;
-  margin: 5px;
+#some-p {
+  font-size: 15px;
+  text-align: start;
 }
 /* sponsors section */
 .sponsors h1 {
