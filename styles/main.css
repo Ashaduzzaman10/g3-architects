@@ -77,8 +77,10 @@ body {
   align-content: center;
 }
 .top-banner-img img {
-  height: 400px;
-  width: 800px;
+  /* height: 400px;
+  width: 800px; */
+  max-width: 100%;
+  height: auto;
   margin-bottom: 50px;
   border-radius: 25px;
 }
@@ -101,8 +103,10 @@ body {
   grid-row-gap: 30px;
 }
 .team img {
-  width: 332px;
-  height: 332px;
+  /* width: 332px;
+  height: 332px; */
+  max-width: 100%;
+  height: auto;
 }
 .team {
   display: flex;
@@ -178,6 +182,9 @@ footer h4 {
 }
 /* responsive menu  */
 @media screen and (max-width: 567px) {
+  body {
+    width: 100%;
+  }
   .menu,
   .top-banner {
     flex-direction: column;
@@ -202,10 +209,12 @@ footer h4 {
     justify-content: center;
     align-items: center;
     align-content: center;
+    max-width: 100%;
+    height: 100%;
   }
   .top-banner-img img {
-    height: 400px;
-    width: 300px;
+    max-width: 100%;
+    height: 100%;
     margin-bottom: 50px;
     border-radius: 25px;
   }
