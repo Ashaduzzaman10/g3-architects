@@ -13,7 +13,7 @@ initial styles or common style
   */
 header {
   background-color: rgba(255, 144, 14, 0.1);
-margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 .banner {
   display: flex;
@@ -79,4 +79,40 @@ nav ul {
   align-content: center;
   justify-content: center;
   margin-top: 50px;
+}
+/* responsive  */
+@media screen and (max-width: 576px) {
+  /* header {
+    width: 100%;
+  } */
+  .banner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner-img {
+    width: 250px;
+    height: 200px;
+    align-content: center;
+    justify-content: center;
+    margin-left: 50px;
+    padding-left: 20px;
+  }
+  .menu {
+    display: flex;
+  }
+}
+@media screen and (max-width: 577px) and (max-width: 992px) {
+  .banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .banner-img {
+    width: 450px;
+    height: 200px;
+    align-content: center;
+    justify-content: center;
+    margin-left: 50px;
+    padding-left: 20px;
+  }
 }
