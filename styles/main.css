@@ -13,6 +13,7 @@ initial styles or common style
   */
 header {
   background-color: rgba(255, 144, 14, 0.1);
+margin-bottom: 50px;
 }
 .banner {
   display: flex;
@@ -44,4 +45,38 @@ nav li {
 nav ul {
   display: flex;
   align-items: center;
+}
+.brand-intro {
+  align-items: center;
+  justify-content: center;
+}
+.brand-tittle {
+  text-align: center;
+  justify-content: center;
+}
+.brand-sub-tittle {
+  text-align: center;
+  justify-content: center;
+}
+.parimary-btn {
+  width: 200px;
+  height: 40px;
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  background: #ff900e;
+  border-radius: 8px;
+  color: #ffffff;
+}
+.btn {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.banner-img {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 50px;
 }
