@@ -134,21 +134,22 @@ body {
   text-align: start;
 }
 /* intro section  */
-#sure{
+#sure {
   text-align: start;
 }
-.intro{
+.intro {
   border: 5px solid white;
   border-radius: 5px;
 }
-.intro-title{
+.intro-title {
   text-align: start;
   font-size: 18px;
 }
-.intro-discription{
+.intro-discription {
   text-align: start;
   font-size: 16px;
 }
+
 /* sponsors section */
 .sponsors h1 {
   text-align: center;
