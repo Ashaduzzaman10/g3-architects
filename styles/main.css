@@ -1,0 +1,55 @@
+/* font  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap");
+
+body {
+  max-width: 1240px;
+  font-family: "Work Sans", sans-serif;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  margin: 40px;
+  font-size: 24px;
+  color: #131313;
+}
+.menu {
+  /* background-color: #ff900e; */
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 20px;
+  color: #424242;
+}
+.menu a:hover {
+  background-color: #d11554;
+  color: white;
+}
+
+/* responsive menu  */
+@media screen and (max-width: 567px) {
+  .menu {
+    flex-direction: column;
+    padding: 12px;
+  }
+  .menu a {
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 15px;
+  }
+  .logo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+  }
+}
